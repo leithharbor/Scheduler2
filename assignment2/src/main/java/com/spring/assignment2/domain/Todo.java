@@ -15,4 +15,12 @@ public class Todo {
     private Long id;
     private String email;
     private String name;
+
+    // 생성자
+    public Todo() {}
+
+    public Todo(String email, String name) {
+        this.email = email;
+        this.name = name;
+    }
 }
